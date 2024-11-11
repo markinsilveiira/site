@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - AVID</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <header>
+        <h1>AVID - Carrinho de Compras</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carrinho-conteudo">
+            <h2>Itens no Carrinho</h2>
+            <ul id="itens-carrinho">
+                <!-- Itens serão inseridos dinamicamente aqui -->
+            </ul>
+            <p id="total">Total: R$ 0,00</p>
+            <button onclick="finalizarCompra()">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AVID - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

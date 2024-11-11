@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVID - Maquiagem</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <header>
+        <h1>AVID - Produtos de Maquiagem</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Produtos em Destaque</h2>
+
+            <div class="produto base">
+                <img src="base.jpg" alt="Base Líquida">
+                <p>Base Líquida</p>
+                <span>R$ 89,90</span>
+                <button onclick="adicionarCarrinho('Base Líquida', 89.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto batom">
+                <img src="batom.jpg" alt="Batom Vermelho">
+                <p>Batom Vermelho</p>
+                <span>R$ 39,90</span>
+                <button onclick="adicionarCarrinho('Batom Vermelho', 39.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto blush">
+                <img src="blush.jpg" alt="Blush">
+                <p>Blush</p>
+                <span>R$ 49,90</span>
+                <button onclick="adicionarCarrinho('Blush', 49.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto corretivo">
+                <img src="corretivo.jpg" alt="Corretivo">
+                <p>Corretivo</p>
+                <span>R$ 59,90</span>
+                <button onclick="adicionarCarrinho('Corretivo', 59.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto paleta">
+                <img src="paleta.jpg" alt="Paleta de Sombras">
+                <p>Paleta de Sombras</p>
+                <span>R$ 44,90</span>
+                <button onclick="adicionarCarrinho('Paleta de Sombras', 44.90)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="produto pincel">
+                <img src="pincel.jpg" alt="Pincel de Maquiagem">
+                <p>Pincel de Maquiagem</p>
+                <span>R$ 129,90</span>
+                <button onclick="adicionarCarrinho('Pincel de Maquiagem', 129.90)">Adicionar ao Carrinho</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AVID - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
